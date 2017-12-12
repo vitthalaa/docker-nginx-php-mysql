@@ -64,7 +64,7 @@ class Validator {
                         break;
 
                     case 'unique':
-                        $model = "Acme\\models\\" . $exploded[1];
+                        $model = "Acme\\Models\\" . $exploded[1];
                         $table = new $model;
                         $results = $this->getRows($table, $name);
                         foreach ($results as $item) {
