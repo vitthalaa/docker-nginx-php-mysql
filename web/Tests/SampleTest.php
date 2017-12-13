@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\Tests;
+namespace App\Tests;
 
 class SampleTest extends \PHPUnit_Framework_TestCase
 {

@@ -2,7 +2,8 @@
 
 #Write commands here which needed at start
 
-set -e
+chmod +x /usr/local/bin/app/test.sh
+
 cd /var/www/html/
 
 echo '> Run migration...'
