@@ -1,7 +1,6 @@
 <?php
 
-// di
-$injector = new \Auryn\Injector;
+$injector = new \Auryn\Injector();
 
 $signer = new Kunststube\CSRFP\SignatureGenerator(getenv('CSRF_SECRET'));
 $injector->share($signer);

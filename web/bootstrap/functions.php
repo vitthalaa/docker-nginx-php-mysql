@@ -3,10 +3,21 @@
 // define custom functions
 
 if (! function_exists('startsWith')) {
+
+
+    /**
+     * @param string $haystack
+     * @param string $needle
+     *
+     * @return bool
+     */
     function startsWith($haystack, $needle)
     {
         return $needle === "" || strrpos($haystack, $needle, - strlen($haystack)) !== false;
+
     }
+
+
 }
 
 
